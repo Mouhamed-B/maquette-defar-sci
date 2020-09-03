@@ -1,0 +1,147 @@
+html, body {
+	display: block;
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+}
+header {
+	background-image: url(../images/BackgroundImage.png);
+	width: auto;
+	/*display: grid;
+	z-index: -1; */
+}
+a.navbar-brand {
+	color: yellow!important;
+	font-family: 'Rochester', cursive;
+	font-weight: 600;
+	font-style: italic;
+}
+div.site-heading{
+	color: white;
+	text-align: center;
+	margin-top: 13%;
+}
+h1.heading{
+	font-weight: 400;
+	font-style: italic;
+}
+li.nav-item {
+	color:white!important;
+	font-weight: bolder;
+}
+button#headbtn {
+	block-size: 4em;
+	width: 35%;
+}
+div.main>div{
+	margin-top: 3%;
+	padding-top: 5%;
+	padding-bottom: 8%;
+}
+.subtext {
+	color: grey;
+	font-style: italic;
+	text-align: justify;
+}
+.center {
+	text-align: center;
+}
+.light-grey{
+	background-color: rgb(235, 235, 235);
+}
+
+div#portfolio div.card {
+	padding: 0%;
+}
+@media (min-width: 767.98px){
+	div.col-custom{
+		flex: 0 0 30%;
+		max-width: 30%;
+	}
+	span.subheading{
+		font-size: 4em;
+		font-weight: bold;
+	}
+	header{
+		height: 700px;
+	}
+	div.contact{
+		height: 646px;
+	}
+	div.col-6.tl{
+		border-right: 2px solid #f1f1f1;
+		height: 7rem;
+		padding: 0%;
+		margin: 0%;
+	}
+	div#about div.col-4.center img:first-of-type{
+		height: 100%;
+		width: auto;
+	}
+	button#footbtn{
+		block-size: 3em;
+		width: 20%;
+	}
+}
+@media (max-width: 767.98px){
+	span.subheading{
+		font-size: 3em;
+		font-weight: bold;
+		margin-top: 5%;
+	}
+	header{
+		height: 85%;
+	}
+	div#portfolio div.card {
+		margin: auto;
+		margin-top: 5%;
+	}
+	div#contact{
+		height: 100%;
+	}
+	div.col-1{
+		margin-top: 5%;
+	}
+}
+
+.right{
+	text-align: right;
+	padding-right: 0%;
+}
+.left{
+	text-align: left;
+	padding-left: 0%;
+}
+img#circle{
+	width: 183px;
+	height: 183px;
+}
+img#text{
+	height: none!important;
+	position: absolute;
+	right: 36%;
+	top: 25%;
+	z-index: 1;
+}
+div#team .col-4.center img:first-of-type{
+	width: 220px;
+	height: 220px;
+}
+div#contact{
+	color: white!important;
+	background-image: url("../images/Map.png");
+	background-position: left;
+  	background-color: rgb(29, 29, 29);
+}
+button{
+	font-weight: bolder;
+	font-size: 1em;
+	color: white!important;
+	border-radius: 0%;
+}
+div.form-group>div.form-row {
+	margin-bottom: 2.9em;
+}
+div.form-group>div.form-row input{
+	height: 30%;
+}
